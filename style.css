@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #1f2540;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #f9ca9c;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+input {
+    padding: 9px;
+    margin-bottom: 9px;
+    border: 1px solid #f9ca9c;
+    border-radius: 25px;
+    width: calc(100% - 20px); /* Genişliği ayarlamak için calc fonksiyonu kullanılıyor */
+}
+
+textarea {
+    padding: 9px;
+    margin-bottom: 9px;
+    border: 1px solid #f9ca9c;
+    border-radius: 25px;
+    width: calc(100% - 20px);
+}
+
+button {
+    padding: 15px;
+    background-color: #1f2540;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: calc(100% - 20px);
+}
+
+.error-message {
+    color: red;
+    margin-top: 7px;
+    width: 100%;
+    text-align: center;
+}
